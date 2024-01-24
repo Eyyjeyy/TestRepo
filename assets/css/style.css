@@ -2023,10 +2023,11 @@ padding-right: 0;
   content: "";
   position: absolute;
   display: block;
-  width: 40px;
+  width: 100px;
   height: 3px;
   background-color: #FF8A00;
-  left: calc(50% - 20px);
+  bottom: -10px;
+  left: calc(50% - 50px);
 }
 
 .offer-circle{
@@ -2041,7 +2042,41 @@ padding-right: 0;
 }
 
 .text-gradient{
+  background-color: #20202066;
   top: 50%;
+}
+
+.text-gradient h2{
+  font-size: 36px !important;
+  color: #fff !important; 
+  font-weight: 800;
+}
+
+@media (max-width: 768px){
+  .text-gradient h2{
+    line-height: 1.2 !important;
+  }
+}
+
+
+@media (min-width: 992px){
+  .text-gradient{
+    max-width: 50%;
+    min-height: 150px;
+  }
+  .text-gradient h2{
+    font-size: 54px !important;
+  }
+}
+@media (min-width: 1200px){
+  .text-gradient{
+    max-width: 45%;
+  }
+}
+@media (min-width: 1400px){
+  .text-gradient{
+    max-width: 40%;
+  }
 }
 
 #hero .row img {
