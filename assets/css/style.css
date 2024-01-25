@@ -343,8 +343,31 @@ h6 {
 
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
+  justify-content: center;
+  max-width: 30%;
   margin: 15px;
   color: #37517e;
+}
+
+@media (max-width: 576px){
+  .navbar-mobile .getstarted,
+  .navbar-mobile .getstarted:focus {
+    max-width: 30vw;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px){
+  .navbar-mobile .getstarted,
+  .navbar-mobile .getstarted:focus {
+    max-width: 20vw;
+  }
+}
+
+@media (min-width: 993px){
+  .navbar-mobile .getstarted,
+  .navbar-mobile .getstarted:focus {
+    max-width: 20vw;
+  }
 }
 
 .navbar-mobile .dropdown ul {
@@ -1839,10 +1862,22 @@ section {
 
 /* Additional CSS */
 
+#header .container img.logo.header{
+  height: 48px;
+  object-fit: cover;
+}
+
+
 .middle-card{
   
   border-left: solid 1px #635a5a; 
   border-right: solid 1px #635a5a; 
+}
+
+@media(max-width: 991px){
+  .middle-card{
+    border: none;
+  }
 }
 
 .btn-download-banner{
@@ -2061,7 +2096,7 @@ padding-right: 0;
 
 @media (min-width: 992px){
   .text-gradient{
-    max-width: 50%;
+    max-width: 490px;
     min-height: 150px;
   }
   .text-gradient h2{
@@ -2070,12 +2105,12 @@ padding-right: 0;
 }
 @media (min-width: 1200px){
   .text-gradient{
-    max-width: 45%;
+    max-width: 490px;
   }
 }
 @media (min-width: 1400px){
   .text-gradient{
-    max-width: 40%;
+    max-width: 490px;
   }
 }
 
@@ -2090,4 +2125,57 @@ padding-right: 0;
   height: 72px;
   z-index: 3;
   object-fit: cover;
+}
+#hero .row img.connect{
+  width: 72px;
+  height: 72px;
+  z-index: 3;
+  object-fit: cover;
+}
+#hero .row img.bone{
+  width: 72px;
+  height: 72px;
+  z-index: 3;
+  object-fit: cover;
+}
+#hero .row img.product{
+  width: 72px;
+  height: 72px;
+  z-index: 3;
+  object-fit: cover;
+}
+
+@media (min-width: 992px){
+  #hero .row div h4{
+    padding-top: 10% !important;
+  }
+}
+
+
+#hero .row .btn-learn-more{
+  position: relative;
+  background: #fe862f;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 32px;
+    border-radius: 8px;
+    transition: 0.3s;
+    line-height: 1;
+    color: #fff;
+    animation-delay: 0.8s;
+    margin-top: 6px;
+    border: 2px solid #fe862f;
+    margin-left: 50%;
+    margin-bottom: 5%;
+    bottom:  20%;
+}
+
+@media(max-width: 991px){
+  #hero .row .btn-learn-more{
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
