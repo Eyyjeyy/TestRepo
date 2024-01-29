@@ -1,0 +1,8 @@
+Fonts Used:
+Jost Font Family
+
+
+Hex Colors:
+003DA5 - Heading
+0049c5 - SubHeadings and Icons
+2a2a2a - Text Body
