@@ -2228,3 +2228,34 @@ padding-right: 0;
 #hero .row.banner-1 h2{
   color: #000;
 }
+
+#hero .row.banner-1 .col-12.Second{
+  padding-top: 15%;
+}
+
+#hero .row.banner-1 a{
+  background-color: #000;
+  padding: 10px;
+  border-radius: 20px;
+  width: 80%;
+  height: 80px;
+}
+
+#hero .row.banner-1 .col-12 .col-12.buttons{
+  padding-right: 0%;
+}
+
+#hero .row.banner-1 .col-12 .col-12.buttons img{
+  height: 30px;
+  display: block !important;
+}
+
+#hero .row.banner-1 .col-12 a img{
+  position: static;
+}
+
+@media(min-width: 992px){
+  #hero .row.banner-1 .col-12{
+    padding-right: 60%;
+  }
+}
