@@ -2236,9 +2236,9 @@ padding-right: 0;
 #hero .row.banner-1 a{
   background-color: #000;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   width: 80%;
-  height: 80px;
+  height: 70px;
 }
 
 #hero .row.banner-1 .col-12 .col-12.buttons{
@@ -2248,6 +2248,8 @@ padding-right: 0;
 #hero .row.banner-1 .col-12 .col-12.buttons img{
   height: 30px;
   display: block !important;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 #hero .row.banner-1 .col-12 a img{
@@ -2258,4 +2260,9 @@ padding-right: 0;
   #hero .row.banner-1 .col-12{
     padding-right: 60%;
   }
+}
+
+#hero .row.banner-1 .col-12 .col-12 a div.flex-column{
+  margin-top: auto;
+  margin-bottom: auto;
 }
