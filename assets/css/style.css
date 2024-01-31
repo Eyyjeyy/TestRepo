@@ -2207,7 +2207,7 @@ padding-right: 0;
 }
 
 #hero .row.banner-1{
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 #hero .row.banner-1 .col-sm-12.col-6{
@@ -2230,7 +2230,7 @@ padding-right: 0;
 }
 
 #hero .row.banner-1 .col-12.Second{
-  padding-top: 15%;
+  padding-top: 25%;
 }
 
 #hero .row.banner-1 a{
@@ -2248,6 +2248,7 @@ padding-right: 0;
   display: block !important;
   margin-top: auto;
   margin-bottom: auto;
+  z-index: 3;
 }
 
 #hero .row.banner-1 .col-12 a img{
@@ -2275,4 +2276,17 @@ padding-right: 0;
 
 #hero .row.banner-1 .col-12 a.google-btn{
   margin-right: 5px;
+}
+
+@media(min-width: 992px){
+  #hero .row.banner-1 .col-12.Second h2{
+    padding-left: 60%;
+    padding-right: 0%;
+  }
+}
+
+@media(min-width: 1200px){
+  #hero .row.banner-1{
+    padding-top: 5%;
+  }
 }
