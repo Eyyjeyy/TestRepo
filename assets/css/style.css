@@ -2266,3 +2266,7 @@ padding-right: 0;
   margin-top: auto;
   margin-bottom: auto;
 }
+
+#hero .row.banner-1 .col-12 h2.thrive{
+  font-size: 2em;
+}
