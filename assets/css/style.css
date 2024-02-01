@@ -2268,6 +2268,7 @@ padding-right: 0;
 
 #hero .row.banner-1 .col-12 h2.thrive{
   font-size: 2em;
+  color: #1b459b;
 }
 
 #hero .row.banner-1 .col-12 p.Get-It{
@@ -2289,4 +2290,96 @@ padding-right: 0;
   #hero .row.banner-1{
     padding-top: 5%;
   }
+}
+
+#hero .col-12.First{
+  padding-left: 5%;
+}
+
+#hero .col-12.Second{
+  padding-left: 50%;
+  padding-right: 5%;
+}
+
+#hero .col-12 .col-8 h2.thrive{
+  font-size: 2em;
+  color: #1b459b;
+}
+
+
+
+@media (min-width: 1400px){
+  #hero .row.banner-1 .col-12.Second{
+    padding-top: 35%;
+  }
+}
+
+p#grow, h2#grow{
+  text-align: justify;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-bottom: 20px;
+}
+
+@media(min-width: 992px){
+  #hero .row.banner-1 .col-12.Second {
+    padding-top: 7%;
+  }
+}
+@media(min-width: 1000px){
+  #hero .row.banner-1 .col-12.Second {
+    padding-top: 9%;
+  }
+}
+@media(min-width: 1050px){
+  #hero .row.banner-1 .col-12.Second {
+    padding-top: 12%;
+  }
+}
+@media (min-width: 1100px){
+  #hero .row.banner-1 .col-12.Second{
+    padding-top: 15%;
+  }
+}
+@media (min-width: 1200px){
+  #hero .row.banner-1 .col-12.Second{
+    padding-top: 30%;
+  }
+}
+
+#hero h2#grow.grow-3{
+  color: #0000FF;
+}
+
+#hero .row.banner-1 .col-12.Third .col-8{
+  
+}
+
+#hero .row.banner-1 .col-12.Third{
+  padding-left: 5%;
+  padding-right: 45%;
+}
+
+@media (min-width: 992px){
+  #hero .row.banner-1 .col-12.Third{
+    padding-top: 15%;
+  }
+}
+@media (min-width: 1200px){
+  #hero .row.banner-1 .col-12.Third{
+    padding-top: 25%;
+  }
+}
+
+#hero h2.Treat{
+  padding-right: 0% !important;
+  font-size: 2em;
+  color: #1b459b !important;
+}
+
+#hero .row.banner-1 img.Cat{
+  z-index: 5;
+  width: 15%;
+  left: 48%;
+  padding-top: 30%;
 }
