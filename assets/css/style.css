@@ -2210,12 +2210,8 @@ padding-right: 0;
   padding-top: 5%;
 }
 
-#hero .row.banner-1 .col-sm-12.col-6{
-  
-}
-/* #hero .row.banner-1 .col-12{
-  padding-right: 50%;
-} */
+
+
 
 #hero .row.banner-1 img{
   position: absolute;
@@ -2301,6 +2297,13 @@ padding-right: 0;
   padding-right: 5%;
 }
 
+@media(min-width: 1200px){
+  #hero .col-12.Second{
+    padding-left: 45%;
+    padding-right: 15%;
+  }
+}
+
 #hero .col-12 .col-8 h2.thrive{
   font-size: 2em;
   color: #1b459b;
@@ -2308,11 +2311,7 @@ padding-right: 0;
 
 
 
-@media (min-width: 1400px){
-  #hero .row.banner-1 .col-12.Second{
-    padding-top: 35%;
-  }
-}
+
 
 p#grow, h2#grow{
   text-align: justify;
@@ -2338,14 +2337,52 @@ p#grow, h2#grow{
 }
 @media (min-width: 1100px){
   #hero .row.banner-1 .col-12.Second{
-    padding-top: 15%;
+    padding-top: 25%;
+    padding-left: 40%;
   }
 }
 @media (min-width: 1200px){
   #hero .row.banner-1 .col-12.Second{
     padding-top: 30%;
+    padding-left: 45%;
   }
 }
+@media (min-width: 1400px){
+  #hero .row.banner-1 .col-12.Second{
+    padding-top: 40%;
+  }
+}
+@media (min-width: 1600px){
+  #hero .row.banner-1 .col-12.Second{
+    padding-top: 50%;
+    padding-left: 40%;
+  }
+}
+
+
+@media (min-width: 1100px){
+  #hero .col-4 img.img-grow{
+    padding-left: 55px;
+  }
+}
+@media (min-width: 1200px){
+  #hero .col-4 img.img-grow{
+    padding-left: 15px;
+  }
+}
+@media (min-width: 1400px){
+  #hero .col-4 img.img-grow{
+    padding-left: 50px;
+  }
+}
+@media (min-width: 1600px){
+  #hero .col-4 img.img-grow{
+    padding-left: 100px;
+  }
+}
+
+
+
 
 #hero h2#grow.grow-3{
   color: #0000FF;
@@ -2381,5 +2418,135 @@ p#grow, h2#grow{
   z-index: 5;
   width: 15%;
   left: 48%;
-  padding-top: 30%;
+  padding-top: 28%;
+  transform: rotate(-5deg);
+}
+#hero .row.banner-1 img.Bird{
+  z-index: 5;
+  width: 15%;
+  left: 80%;
+  padding-top: 60%;
+}
+#hero .row.banner-1 img.Dog{
+  z-index: 5;
+  width: 15%;
+  left: 42%;
+  padding-top: 85%;
+  transform: rotate(10deg);
+}
+#hero .row.banner-1 img.Hamster{
+  z-index: 5;
+  width: 15%;
+  left: 50%;
+  padding-top: 132%;
+}
+
+@media(min-width:992px) and (max-width: 1100px){
+  #hero .col-12.Second{
+    padding-left: 35%;
+    padding-top: 15% !important;
+  }
+  #hero .row.banner-1 img.Bird{
+    visibility: hidden;
+  }
+  #hero .row.banner-1 img.img-grow{
+    left: 46%;
+    width: 70px;
+  }
+}
+@media(min-width: 1400px){
+  #hero .row.banner-1 img.Cat{
+    width: 10%;
+    left: 49%;
+    padding-top: 32%;
+  }
+  #hero .row.banner-1 img.Bird{
+    z-index: 5;
+    width: 10%;
+    left: 80%;
+    padding-top: 65%;
+  }
+  #hero .row.banner-1 img.Dog{
+    z-index: 5;
+    width: 10%;
+    left: 42%;
+    padding-top: 85%;
+  }
+  #hero .row.banner-1 img.Hamster{
+    z-index: 5;
+    width: 10%;
+    left: 55%;
+    padding-top: 135%;
+  }
+}
+
+#hero .row.banner-1 .Bannerimg{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+
+
+
+/* Mobile Format */
+
+#hero .row.banner-1-mobile .col-12{
+  padding-top: 10%;
+}
+
+#hero .row.banner-1-mobile img.banner-logo-mobile{
+  position: absolute;
+  padding-left: 10%;
+}
+
+.thrive-mobile{
+  font-size: 48px !important;
+  color: #1b459b !important;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#hero .row.banner-1-mobile p{
+  word-break: break-word;
+  font-size: 24px;
+  text-align: center;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+@media(max-width: 576px){
+  .thrive-mobile{
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: normal;
+    margin-bottom: 0;
+  }
+}
+
+/* Mobile Format */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 991px){
+  #hero .row.banner-1{
+    display: none;
+  }
+}
+@media(min-width:992px){
+  #hero .row.banner-1-mobile{
+    display: none;
+  }
 }
