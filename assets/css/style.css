@@ -2466,6 +2466,10 @@ p#grow, h2#grow{
   object-fit: cover;
 }
 
+#faq .col h3{
+  padding-top: 12%;
+}
+
 @media(min-width:992px) and (max-width: 1100px){
   #hero .col-12.Second{
     padding-left: 35%;
