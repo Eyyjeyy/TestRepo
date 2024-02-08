@@ -1346,6 +1346,10 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
+#faq a[aria-expanded="true"]{
+  color: #47b2e4;
+}
+
 .faq .faq-list {
   padding: 0 100px;
 }
@@ -1657,6 +1661,140 @@ section {
   color: #4668a2;
   content: "/";
 }
+
+
+#about li{
+  list-style-type: none; /* Remove bullets */
+}
+
+
+
+.ri-check-double-line{
+  position: absolute;
+  color: #47b2e4;
+  font-size: 20px;
+}
+.ri-check-double-line::before{
+}
+
+.ri-check-double-line p{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+
+
+/* Safety Tips */
+
+#safety-tips{
+  background-color: #f3f5fa;
+}
+
+#safety-tips .container-fluid{
+
+}
+
+#safety-tips h2.title{
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 20px;
+  color: #37517e;
+}
+#safety-tips h2.title::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+#safety-tips h2.title::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #fe862f;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+#safety-tips ul{
+  list-style: none;
+}
+
+
+
+#safety-tips li{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  position: relative;
+}
+
+#safety-tips li+li{
+  margin-top: 15px;
+}
+
+#safety-tips a{
+  display: block;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  padding: 0 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+#safety-tips a .icon-show{
+  position: absolute;
+  right: 0;
+}
+#safety-tips a .icon-show::before{
+  font-size: 24px;
+}
+
+#safety-tips a .icon-close{
+  position: absolute;
+  right: 0;
+}
+#safety-tips a .icon-close::before{
+  font-size: 24px;
+}
+
+#safety-tips a .icon-show{
+  display: none;
+}
+
+#safety-tips a.collapsed .icon-show{
+  display: inline-block;
+}
+
+#safety-tips a.collapsed .icon-close{
+  display: none;
+}
+
+#safety-tips .faq-list .icon-help{
+  font-size: 24px;
+  position: absolute;
+  right: 0;
+  left: 20px;
+  color: #47b2e4;
+}
+
+#safety-tips li .collapse p{
+  padding-top: 10px;
+}
+
+/*  */
+
+
+
 
 /*--------------------------------------------------------------
 # Footer
