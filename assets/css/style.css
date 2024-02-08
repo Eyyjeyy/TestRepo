@@ -2236,7 +2236,7 @@ padding-right: 0;
 }
 
 #hero .row.banner-1 .col-12 .col-12.buttons{
-  padding-right: 0%;
+  padding-right: 60%;
 }
 
 #hero .row.banner-1 .col-12 .col-12.buttons img{
@@ -2612,7 +2612,7 @@ p#grow, h2#grow{
     padding-right: 10%;
   }
   #hero .row.banner-1-mobile .col-12.buttons{
-    padding-top: 5%;
+    padding-top: 2%;
   }
   #hero .row.banner-1-mobile .GoodTimes{
     color: #000;
