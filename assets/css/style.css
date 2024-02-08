@@ -1791,6 +1791,80 @@ section {
   padding-top: 10px;
 }
 
+
+/* Cookie Policy */
+
+#cookie-policy h2.title{
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 20px;
+  color: #37517e;
+}
+
+#cookie-policy h2.title::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+#cookie-policy h2.title::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #fe862f;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+
+/* Cookie Policy */
+
+#cookie-policy .row .col-lg-6.col-12{
+  position: relative;
+}
+
+#cookie-policy .row.cookie-list{
+  padding-top: 30px;
+}
+
+#cookie-policy .row h4{
+  padding-bottom: 20px;
+}
+
+#cookie-policy ul{
+  padding-left: 0;
+}
+
+#cookie-policy ul li{
+  position: relative;
+  padding-left: 28px;
+}
+
+#cookie-policy ul li i{
+  top: 2px;
+  font-size: 20px;
+  height: 20px;
+  line-height: 1;
+}
+
+
+#cookie-policy ul li i.ri-check-double-line{
+  position: absolute;
+  left: 0;
+}
+
+#cookie-policy ul{
+  list-style-type: none;
+}
+
+
 /*  */
 
 
