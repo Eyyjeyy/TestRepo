@@ -2337,19 +2337,19 @@ p#grow, h2#grow{
 }
 @media (min-width: 1100px){
   #hero .row.banner-1 .col-12.Second{
-    padding-top: 25%;
+    padding-top: 30%;
     padding-left: 40%;
   }
 }
 @media (min-width: 1200px){
   #hero .row.banner-1 .col-12.Second{
-    padding-top: 30%;
+    padding-top: 35%;
     padding-left: 45%;
   }
 }
 @media (min-width: 1400px){
   #hero .row.banner-1 .col-12.Second{
-    padding-top: 40%;
+    padding-top: 45%;
   }
 }
 @media (min-width: 1600px){
@@ -2469,7 +2469,7 @@ p#grow, h2#grow{
 @media(min-width:992px) and (max-width: 1100px){
   #hero .col-12.Second{
     padding-left: 35%;
-    padding-top: 15% !important;
+    padding-top: 20% !important;
   }
   #hero .row.banner-1 img.Bird{
     visibility: hidden;
