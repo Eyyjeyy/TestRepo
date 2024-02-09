@@ -595,7 +595,7 @@ section {
 }
 
 .clients img {
-  max-width: 45%;
+  max-width: 90%;
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 15px 0;
@@ -2400,6 +2400,9 @@ padding-right: 0;
 #contact a.tiktok {
   margin-left: 10%;
 }
+#contact a.twitter{
+  margin-left: 10%;
+}
 
 #contact a.purpose{
   color: #000000;
@@ -2469,9 +2472,9 @@ padding-right: 0;
 }
 
 @media(min-width: 992px){
-  #hero .row.banner-1 .col-12 h2, #hero .row.banner-1 .col-12 p{
+  /* #hero .row.banner-1 .col-12 h2, #hero .row.banner-1 .col-12 p{
     padding-right: 60%;
-  }
+  } */
 }
 
 #hero .row.banner-1 .col-12 .col-12 a div.flex-column{
@@ -2599,7 +2602,41 @@ p#grow, h2#grow{
 }
 
 
+.unleash-text{
+  top: -13px;
+  left: 9%;
+  height: 48px;
+}
+.unleash-text-mobile{
+  top: -20px;
+  left: 1%;
+}
+.unleash-div{
+  min-width: 250px;
+}
 
+@media(max-width: 768px){
+  .unleash-text-mobile{
+    top: -10px;
+    height: 48px;
+  }
+  .unleash-div{
+    min-width: 160px;
+    max-width: 160px;
+  }
+}
+
+
+@media(min-width: 1600px){
+  .unleash-text{
+    left: 11%;
+  }
+}
+@media(min-width: 1650px){
+  .unleash-text{
+    left: 9%;
+  }
+}
 
 #hero h2#grow.grow-3{
   color: #0000FF;
@@ -2783,7 +2820,7 @@ p#grow, h2#grow{
   font-size: 48px !important;
   color: #1b459b !important;
   padding-left: 20%;
-  padding-right: 20%;
+  padding-right: 2%;
 }
 
 #hero .row.banner-1-mobile p{
@@ -2905,10 +2942,44 @@ p#grow, h2#grow{
 /* Mobile Format */
 
 
+#hero .row.banner-1 .col-12.First p{
+  padding-right: 60%;
+}
 
+#hero .row.banner-1 .col-12.First h2.text-center.mb-2{
+  padding-right: 60%;
+}
 
-
-
+@media(min-width: 1500px){
+  #hero .row.banner-1 .col-12.First p,
+  #hero .row.banner-1 .col-12.First h2.text-center.mb-2,
+  #hero .row.banner-1 .col-12.First .col-12.buttons
+  {
+    padding-right: 65%;
+  }
+}
+@media(min-width: 1600px){
+  #hero .row.banner-1 .col-12.First p,
+  #hero .row.banner-1 .col-12.First h2.text-center.mb-2,
+  #hero .row.banner-1 .col-12.First .col-12.buttons
+  {
+    padding-right: 70%;
+  }
+}
+@media(min-width: 1700px){
+  #hero .row.banner-1 .col-12.First p,
+  #hero .row.banner-1 .col-12.First h2.text-center.mb-2,
+  #hero .row.banner-1 .col-12.First .col-12.buttons
+  {
+    padding-right: 75%;
+  }
+  #hero .row.banner-1 .col-12.First h2.text-center.mb-2{
+    padding-right: 75%;
+  }
+  #hero .row.banner-1 .col-12.First .col-12.buttons{
+    padding-right: 75%;
+  }
+}
 
 
 
