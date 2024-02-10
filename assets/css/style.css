@@ -2530,7 +2530,29 @@ padding-right: 0;
 }
 
 
+@media(max-width: 992px){
+  #privacy-policy .content p.Thanks{
+    text-align: center;
+  }
+}
 
+@media(min-width: 576px){
+  /* #about .content .col-lg-6 .row.pb-5{
+    padding-left: 22px;
+  } */
+}
+
+@media(min-width: 992px){
+  #about .content .col-lg-6 .row.pb-5{
+    padding-left: 22px;
+  }
+  #privacy-policy .content p.Thanks{
+    text-align: justify;
+  }
+  #why-us .content p{
+    text-align: justify;
+  }
+}
 
 
 p#grow, h2#grow{
@@ -2543,6 +2565,9 @@ p#grow, h2#grow{
 @media(min-width: 992px){
   #hero .row.banner-1 .col-12.Second {
     padding-top: 7%;
+  }
+  #hero .container.Benefits h4{
+    height: 87px;
   }
 }
 @media(min-width: 1000px){
