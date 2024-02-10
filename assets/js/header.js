@@ -18,12 +18,17 @@ function createHead() {
     const title = document.createElement('title');
     title.textContent = 'Unleash PH';
 
+    const tab = document.createElement('link');
+    tab.rel="icon";
+    tab.href = "assets/img/favicon.png";
+
     // Append elements to head
     document.head.appendChild(metaCharset);
     document.head.appendChild(metaViewport);
     document.head.appendChild(metaDescription);
     document.head.appendChild(metaKeywords);
     document.head.appendChild(title);
+    document.head.appendChild(tab);
 
     // Create and append link elements for CSS files
     const stylesheets = [
